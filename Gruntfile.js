@@ -50,7 +50,7 @@ module.exports = function(grunt) {
                 host: 'http://emailer.local',
                 username: 'username',
                 path: 'C:\Users\JesseKahner\Documents\GitHub/mixture-premailer-grunt',
-                port: 9000
+               /* port: 9000*/
             }
         },
 
@@ -76,6 +76,14 @@ module.exports = function(grunt) {
                     src: ['**/*.{gif,png,jpg}'],
                     dest: '<%= paths.tmp %>/images'
                 }]
+            },
+            css: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= paths.src %>/css',
+                    src: ['**/*.{css}'],
+                    dest: '<%= paths.tmp %>/css'
+                }]
             }
         },
 
@@ -90,7 +98,7 @@ module.exports = function(grunt) {
                 //default options for development and watch environment
                 //accepts some compass command line option
                 //see https://github.com/gruntjs/grunt-contrib-compass
-                config: path.normalize(__dirname + '/vendor/compass-config.rb'),
+                config: path.normalize(__dirname + '/compass/config.rb'),
                 cssDir: '<%= paths.tmp %>/css',
                 imagesDir: '<%= paths.tmp %>/images'
             },
@@ -176,7 +184,9 @@ module.exports = function(grunt) {
          */
         premailer: {
             options: {
-                preserveStyles: false
+                preserveStyles: false,
+                css: [],
+                baseUrl: "http://emailer.local",
             },
 
             dist_html: {
@@ -184,7 +194,7 @@ module.exports = function(grunt) {
                     //see https://github.com/dwightjack/grunt-premailer#options
                     //css is used to be sure that external CSS files are parsed
                     css: ['<%= paths.dist %>/css/*.css'],
-                    baseUrl: '<%= hosts.production.url %>/'
+                    baseUrl: '<%= hosts.production.url %>/src'
                 },
                 files: [{
                     expand: true,
@@ -221,7 +231,7 @@ module.exports = function(grunt) {
             dev_html: {
                 options: {
                     css: ['<%= paths.email %>/css/*.css'],
-                    baseUrl: '<%= hosts.development.url %>:<%= hosts.development.port %>/test.html'
+                    baseUrl: '<%= hosts.development.url %>:<%= hosts.development.port %>/'
                 },
                 files: [{
                     expand: true,
@@ -425,10 +435,10 @@ module.exports = function(grunt) {
     grunt.registerTask('simple', 'Simulates an email delivery.', function() {
         grunt.task.run([
             'base_dev',
-	        'premailer:test_txt',
-	        /*'connect:dev',
-        	'concurrent:dev'*/
-	        /*'premailer:dist_txt'*/
+	        'premailer:dev_html',
+	        'connect:dev',
+        	'concurrent:dev',
+	        /*'premailer:dev_html'*/
 
         ]);
     });
