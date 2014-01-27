@@ -1,0 +1,49 @@
+{
+    "debug": false,
+    "lintScripts": false,
+    "preprocessorLocations": "src/sass",
+    "preprocessorScriptOutput": null,
+    "preprocessorStyleOutput": "src/css",
+    "projectName": "Mixture, Premailer & Grunt - oh MY!",
+    "projectDescription": "",
+    "publishedId": null,
+    "serverHostname": null,
+    "serverPort": null,
+    "templateDirectory": "templates",
+    "templateDefaultLayout": "layout",
+    "templateDefaultPage": "index",
+    "type": "simple",
+    "useCompass": true,
+    "simpleModePartnerServer": "emailer.local",
+    "simpleModeFileTypes": null,
+    "modelSource": null,
+    "domain": null,
+    "convertHtmlOutput": null,
+    "convertHtmlExtension": ".html",
+    "followLeader": true,
+    "routes": null,
+    "customRuby": false,
+    "customRubyPath": null,
+    "remoteDebugPort": 0,
+    "optimiseImages": true,
+    "password": null,
+    "ignoreDir": "ignore",
+    "customTodos": null,
+    "ftpSettings": null,
+    "autoPrefixer": {
+		"active": true,
+		"browsers": [
+			"last 3 version", 
+			"> 1%", 
+			"ie 8"
+		]
+	},
+	"sass": {
+		"outputStyle": "nested",
+		"sourceMap":true,
+		"useLibSass":true
+	},
+    "sitemap": false,
+    "gitHubPages": null,
+    "less": null
+}
