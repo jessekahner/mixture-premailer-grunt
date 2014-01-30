@@ -362,7 +362,7 @@ module.exports = function(grunt) {
             options: {
                 logConcurrentOutput: true
             },
-            dev: ['watch', 'compass:watch']
+            dev: ['watch'/*, 'compass:watch'*/]
         },
 
         /**
@@ -398,7 +398,7 @@ module.exports = function(grunt) {
      grunt.registerTask('base_dev', [
         'clean',
         'copy',
-        'compass:dev',
+        /*'compass:dev',*/
         'render',
         'preprocess:dev'
     ]);
@@ -415,7 +415,7 @@ module.exports = function(grunt) {
         'clean',
         'copy',
         'imagemin',
-        'compass:dist',
+        /*'compass:dist',*/
         'render',
         'preprocess:dist',
         'premailer:dist_html',

@@ -38,7 +38,7 @@ Thumbs.db
 
 node_modules/
 tmp/
-config/
+config/*
 *.sublime-workspace
 .pid
 .sublime-grunt.cache
