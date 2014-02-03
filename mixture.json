@@ -1,10 +1,10 @@
 {
-    "debug": false,
+    "debug": true,
     "lintScripts": false,
-    "preprocessorLocations": "src/sass",
+    "preprocessorLocations": "src",
     "preprocessorScriptOutput": null,
     "preprocessorStyleOutput": "src/css",
-    "projectName": "Mixture, Premailer & Grunt - oh MY!",
+    "projectName": "Mixture, Premailer and Grunt - oh MY!",
     "projectDescription": "",
     "publishedId": null,
     "serverHostname": null,
@@ -13,37 +13,34 @@
     "templateDefaultLayout": "layout",
     "templateDefaultPage": "index",
     "type": "simple",
-    "useCompass": true,
-    "simpleModePartnerServer": "emailer.local",
+    "useCompass": false,
+    "simpleModePartnerServer": "http://github.192.168.0.15.xip.io",
     "simpleModeFileTypes": null,
     "modelSource": null,
     "domain": null,
     "convertHtmlOutput": null,
     "convertHtmlExtension": ".html",
-    "followLeader": true,
+    "followLeader": false,
     "routes": null,
     "customRuby": false,
     "customRubyPath": null,
     "remoteDebugPort": 0,
-    "optimiseImages": true,
+    "optimiseImages": false,
     "password": null,
-    "ignoreDir": "ignore",
+    "ignoreDir": "ignore,node_modules",
     "customTodos": null,
     "ftpSettings": null,
-    "autoPrefixer": {
-		"active": true,
-		"browsers": [
-			"last 3 version", 
-			"> 1%", 
-			"ie 8"
-		]
-	},
-	"sass": {
-		"outputStyle": "nested",
+    "autoPrefixer": null,
+    "sass": {
+    	"outputStyle": "nested",
 		"sourceMap":true,
+		"lineNumbers": false,
 		"useLibSass":true
-	},
+    },
     "sitemap": false,
     "gitHubPages": null,
-    "less": null
+    "less": {
+    	"sourceMap": true,
+  		"lineNumbers": false
+    }
 }

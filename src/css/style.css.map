@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass\style.scss",
+  "sources": ["C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass\style.scss","C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass/_email-normalize.scss","C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass/clients/_outlook-hotmail.scss","C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass/clients/_outlook.scss","C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass/clients/_osx-ios.scss","C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass/clients/_ms-mobile.scss"],
+  "names": [],
+  "mappings": ";ACEA;EAEC,QAAO;EACP,SAAQ;;AAGT;EAEC,QAAO;EACP,QAAO;EACP,aAAY;EACZ,SAAQ;EACR,iBAAgB;;AAGjB,EAAE;EAED,QAAO;;AAGR;EAEC,SAAQ;;AAGT,OAAO;EAEN,iBAAgB;;AAGjB;EAEC,QAAO;EACP,QAAO;EACP,SAAQ;EACR,OAAM;;ACrCP;EACI,OAAM;;AAGV,gBAAgB,eAAe,GAAG,eAAe,MAAM,eAAe,MAAM,eAAe,IAAI,eAAe;EAM1G,aAAa;;;;ACVjB;EACI,kBAAiB;EACjB,kBAAiB;;AAGrB;EACQ,wBAAuB;;AEN/B;EACI,sBAAqB;;;ALSzB,MAAM,GAAG,MAAM,GAAG,QAAQ;EACzB,0BAA0B;;AAI3B;EAEC,YAAW;EACX,OAAM"
+}

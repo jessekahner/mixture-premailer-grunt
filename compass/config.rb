@@ -9,7 +9,7 @@ project_path =File.expand_path('..',File.dirname(__FILE__))
 css_dir = "src/css" # update to the path of your css files.
 sass_dir = "src/sass" # update to the path of your sass files.
 images_dir = "src/images" # update to the path of your image files.
-javascripts_dir = "src/scripts" # update to the path of your script files.
+javascripts_dir = "src/js" # update to the path of your script files.
 
-line_comments = false # if debugging (using chrome extension - set this to true)
-cache = true
+line_comments = true # if debugging (using chrome extension - set this to true)
+cache = false

@@ -1,0 +1,58 @@
+/* [sass, src/sass, style.scss] */
+/* LET'S NORMALIZE
+=================================================================== */
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0 none;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none; }
+
+a img {
+  border: 0 none; }
+
+.imageFix {
+  display: block; }
+
+table, td {
+  border-collapse: collapse; }
+
+#bodyTable {
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important; }
+
+.ExternalClass {
+  width: 100%; }
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%; }
+
+/* <hX> Color Override
+=================================================================== */
+
+table {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+body {
+  -ms-text-size-adjust: 100%; }
+
+/* LET THE REAL STYLE BEGIN!
+=================================================================== */
+body, p, span, a, strong, em {
+  -webkit-text-size-adjust: none; }
+
+body {
+  background: red;
+  color: #fff; }
+
+/*# sourceMappingURL=C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\css\style.css.map */

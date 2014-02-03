@@ -50,7 +50,7 @@ module.exports = function(grunt) {
                 host: 'http://emailer.local',
                 username: 'username',
                 path: 'C:\Users\JesseKahner\Documents\GitHub/mixture-premailer-grunt',
-               /* port: 9000*/
+                port: 9000
             }
         },
 
@@ -92,34 +92,34 @@ module.exports = function(grunt) {
          * SCSS Compilation Tasks (used internally)
          * ===============================
          */
-        compass: {
+        // compass: {
 
-            options: {
-                //default options for development and watch environment
-                //accepts some compass command line option
-                //see https://github.com/gruntjs/grunt-contrib-compass
-                config: path.normalize(__dirname + '/compass/config.rb'),
-                cssDir: '<%= paths.tmp %>/css',
-                imagesDir: '<%= paths.tmp %>/images'
-            },
+        //     options: {
+        //         //default options for development and watch environment
+        //         //accepts some compass command line option
+        //         //see https://github.com/gruntjs/grunt-contrib-compass
+        //         config: path.normalize(__dirname + '/compass/config.rb'),
+        //         cssDir: '<%= paths.tmp %>/css',
+        //         imagesDir: '<%= paths.tmp %>/images'
+        //     },
 
-            watch: {
-                options: {
-                    watch: true
-                }
-            },
+        //     watch: {
+        //         options: {
+        //             watch: true
+        //         }
+        //     },
 
-            dev: {},
+        //     dev: {},
 
-            dist: {
-                options: {
-                    cssDir: '<%= paths.dist %>/css',
-                    imagesDir: '<%= paths.dist %>/images',
-                    force: true,
-                    environment: 'production'
-                }
-            }
-        },
+        //     dist: {
+        //         options: {
+        //             cssDir: '<%= paths.dist %>/css',
+        //             imagesDir: '<%= paths.dist %>/images',
+        //             force: true,
+        //             environment: 'production'
+        //         }
+        //     }
+        // },
 
 
         /**
@@ -398,7 +398,6 @@ module.exports = function(grunt) {
      grunt.registerTask('base_dev', [
         'clean',
         'copy',
-        /*'compass:dev',*/
         'render',
         'preprocess:dev'
     ]);
