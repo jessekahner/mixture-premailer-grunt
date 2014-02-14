@@ -2,7 +2,7 @@
     "debug": true,
     "lintScripts": false,
     "preprocessorLocations": "src",
-    "preprocessorScriptOutput": null,
+    "preprocessorScriptOutput": "src/js",
     "preprocessorStyleOutput": "src/css",
     "projectName": "Mixture, Premailer and Grunt - oh MY!",
     "projectDescription": "",
@@ -33,7 +33,7 @@
     "autoPrefixer": null,
     "sass": {
     	"outputStyle": "nested",
-		"sourceMap":true,
+		"sourceMap":false,
 		"lineNumbers": false,
 		"useLibSass":true
     },
