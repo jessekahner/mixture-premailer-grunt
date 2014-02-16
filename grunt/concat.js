@@ -1,6 +1,6 @@
 module.exports = {
   dist: {
-    src: ['src/*.js'],
+    src: 'src/*/*.min.js',
     dest: 'dist/build.js',
   }
 };

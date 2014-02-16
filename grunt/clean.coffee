@@ -1,6 +1,5 @@
-# module.exports =
-# 	all: [
-# 		'dist*'
-# 		'<%= paths.tmp %>'
-# 	]
-# return
+module.exports =
+	all: [
+		'dist*'
+		'<%= paths.tmp %>'
+	]

@@ -1,2 +1,8 @@
 default:
-	- 'concat'
+- 'copy'
+- 'clean'
+base_dev:
+- 'clean'
+- 'copy'
+- 'render'
+- 'preprocess:dev'
