@@ -1,7 +1,6 @@
 default:
 - 'copy'
 - 'clean'
-- 'chose'
 base_dev:
 - 'clean'
 - 'copy'

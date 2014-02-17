@@ -1,4 +1,4 @@
-module.export =
+module.exports =
 	# /**
 	# * Server Tasks (used internally)
 	# * ===============================
