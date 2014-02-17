@@ -1,0 +1,35 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   Gruntfile.coffee
+#	deleted:    dist/build.js
+#	modified:   grunt/aliases.yaml
+#	modified:   grunt/clean.coffee
+#	modified:   grunt/concat.js
+#	new file:   grunt/concurrent.coffee
+#	new file:   grunt/connect.coffee
+#	new file:   grunt/copy.coffee
+#	new file:   grunt/imagemin.coffee
+#	new file:   grunt/premailer.coffee
+#	new file:   grunt/preprocess.coffee
+#	new file:   grunt/render.coffee
+#	new file:   grunt/watch.coffee
+#	modified:   mixture-premailer-grunt.sublime-project
+#	deleted:    mixture.json.copy
+#	deleted:    src/boiler.html
+#	deleted:    src/css/style.css.map
+#	deleted:    src/css/version_css.css
+#	deleted:    src/css/version_css.min.css
+#	deleted:    src/email.html
+#	modified:   src/js/script.coffee
+#	deleted:    src/sass/_email-normalize.scss
+#	deleted:    src/sass/clients/_ms-mobile.scss
+#	deleted:    src/sass/clients/_outlook-hotmail.scss
+#	deleted:    src/sass/clients/_outlook.scss
+#	deleted:    src/test.html
+#
+

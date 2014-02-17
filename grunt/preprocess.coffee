@@ -5,6 +5,7 @@ module.export =
 	# */
 	options:
 		inline: true
+
 	dev:
 		options:
 			context:

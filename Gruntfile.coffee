@@ -1,6 +1,7 @@
 module.exports = (grunt) ->
 	"use strict"
 	path = require("path")
+	require("load-grunt-tasks") grunt
 	require("load-grunt-config") grunt,
 		configPath: path.join(process.cwd(), "grunt") #path to task.js files, defaults to grunt dir
 		init: true #auto grunt.initConfig

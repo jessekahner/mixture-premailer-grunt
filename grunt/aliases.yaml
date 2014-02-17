@@ -1,8 +1,13 @@
 default:
 - 'copy'
 - 'clean'
+- 'chose'
 base_dev:
 - 'clean'
 - 'copy'
 - 'render'
 - 'preprocess:dev'
+dev:
+- 'base_dev'
+- 'connect:dev'
+- 'concurrent'
