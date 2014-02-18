@@ -10,6 +10,14 @@ module.exports =
 		files: [
 			expand: true
 			cwd: '<%= paths.src %>/css'
-			src: ['**/*.{css}']
+			src: ['**/*.css']
 			dest: '<%= paths.tmp %>/css'
 		]
+
+	# chose:
+	# 	files: [
+	# 		expand: true
+	# 		cwd: '<%= paths.src %>/css'
+	# 		src: '**/*.css'
+	# 		dest: 'dest/css'
+	# 	]
