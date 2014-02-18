@@ -10,3 +10,11 @@ dev:
 - 'base_dev'
 - 'connect:dev'
 - 'concurrent'
+dist:
+- 'clean'
+- 'copy'
+- 'imagemin'
+- 'render'
+- 'preprocess:dist'
+- 'premailer:dist_html'
+- 'premailer:dist_txt'

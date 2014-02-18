@@ -5,7 +5,7 @@ module.exports =
 	# */
 	html:
 		files: ['<%= paths.src %>/<%= paths.email %>', '<%= paths.src %>/inc/**/*.html', '<%= paths.data %>'],
-		tasks: ['render', 'preprocess:dev', 'premailer:dev_html']
+		tasks: ['render', 'preprocess:dev']
 
 	images:
 		files: ['<%= paths.src %>/images/**/*.{gif,png,jpg}'],

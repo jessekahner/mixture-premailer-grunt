@@ -45,4 +45,4 @@ module.exports = (grunt) ->
 			# pattern: "grunt-"
 			config: require("./package.json")
 			scope: "devDependencies"
-	return;
+	return

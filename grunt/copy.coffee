@@ -6,13 +6,13 @@ module.exports =
 			src: ['**/*.{gif,png,jpg}']
 			dest: '<%= paths.tmp %>/images'
 		]
-	css:
-		files: [
-			expand: true
-			cwd: '<%= paths.src %>/css'
-			src: ['**/*.css']
-			dest: '<%= paths.tmp %>/css'
-		]
+	# css:
+	# 	files: [
+	# 		expand: true
+	# 		cwd: '<%= paths.src %>/css'
+	# 		src: ['**/*.css']
+	# 		dest: '<%= paths.tmp %>/css'
+	# 	]
 
 	# chose:
 	# 	files: [

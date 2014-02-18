@@ -1,15 +1,17 @@
 module.exports =
 	options:
 		preserveStyles: false
-		css: []
-		baseUrl: "http://emailer.local"
+		# verbose: true
+		# removeComments: false
+		# css: []
+		# baseUrl: "http://emailer.local"
 
 	dist_html:
 		options:
 		# //see https://github.com/dwightjack/grunt-premailer#options
 		# //css is used to be sure that external CSS files are parsed
-			css: ['<%= paths.dist %>/css/*.css']
-			baseUrl: '<%= hosts.production.url %>/src'
+			css: ['<%= paths.dist %>/css/style.css']
+			baseUrl: '<%= hosts.production.url %>/'
 		files: [
 			expand: true
 			cwd: '<%= paths.dist %>/'
@@ -32,7 +34,7 @@ module.exports =
 
 	dev_html:
 		options:
-			css: ['<%= paths.email %>/css/*.css']
+			css: ['<%= paths.tmp %>/css/*.css']
 			baseUrl: '<%= hosts.development.url %>:<%= hosts.development.port %>/'
 		files: [
 			expand: true,

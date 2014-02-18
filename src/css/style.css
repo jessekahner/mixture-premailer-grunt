@@ -1,73 +1,11 @@
 /* [sass, src/sass, style.scss] */
-/* LET'S NORMALIZE
-=================================================================== */
-/* line 3, email-normalize */
-body {
-  margin: 0;
-  padding: 0; }
-
-/* line 9, email-normalize */
-img {
-  border: 0 none;
-  height: auto;
-  line-height: 100%;
-  outline: none;
-  text-decoration: none; }
-
-/* line 18, email-normalize */
-a img {
-  border: 0 none; }
-
-/* line 23, email-normalize */
-.imageFix {
-  display: block; }
-
-/* line 28, email-normalize */
-table, td {
-  border-collapse: collapse; }
-
-/* line 33, email-normalize */
-#bodyTable {
-  height: 100% !important;
-  margin: 0;
-  padding: 0;
-  width: 100% !important; }
-
-/* line 1, clients/outlook-hotmail */
-.ExternalClass {
-  width: 100%; }
-
-/* line 10, clients/outlook-hotmail */
-.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
-  line-height: 100%; }
-
-/* <hX> Color Override
-=================================================================== */
-
-/* line 1, clients/outlook */
-table {
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt; }
-
-/* line 6, clients/outlook */
-img {
-  -ms-interpolation-mode: bicubic; }
-
-/* line 1, clients/osx-ios */
-body {
-  -webkit-text-size-adjust: 100%; }
-
-/* line 1, clients/ms-mobile */
-body {
-  -ms-text-size-adjust: 100%; }
-
 /* LET THE REAL STYLE BEGIN!
 =================================================================== */
 /* line 11, C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass\style.scss */
 body, p, span, a, strong, em {
   -webkit-text-size-adjust: none; }
 
-/* line 16, C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass\style.scss */
+/* line 15, C:\Users\Bang Marketing\Documents\GitHub\mixture-premailer-grunt\src\sass\style.scss */
 body {
-  background: yellow;
+  background: #ff6600;
   color: #fff; }

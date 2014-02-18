@@ -1,0 +1,45 @@
+module.exports = 
+	# /**
+	# * Test Mailer Tasks (used internally)
+	# * ===============================
+	# */
+
+	options:
+		# /**
+		# * Defaults to sendmail
+		# * You may create a transport configuration file under `config` folder.
+		# * (ie: `config/nodemailer-transport.json`)
+		# * @see https://github.com/andris9/Nodemailer
+		# *
+		# * Here follows a Gmail SMTP example:
+		# * {
+		# *  "type": "SMTP",
+		# *  "options": {
+		# *      "service": "Gmail",
+		# *      "auth": {
+		# *          "user": "john.doe@gmail.com",
+		# *          "pass": "password"
+		# *      }
+		# *  }
+		# * }
+		# */
+		# /* ,*/
+		transport: grunt.file.readJSON('config/nodemailer-transport.json'),
+
+		message:
+			from: '<John Doe> jesse.kahner@gmail.com'
+
+
+		# // HTML and TXT email
+		# // A collection of recipients
+		recipients: [
+			email: 'jesse.kahner@gmail.com',
+			name: 'Jane Doe'
+		]
+
+	dist:
+		src: ['<%= paths.dist %>/<%= paths.email %>']
+
+
+	dev:
+		src: ['<%= paths.tmp %>/<%= paths.email %>']
